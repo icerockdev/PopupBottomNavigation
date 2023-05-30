@@ -2,10 +2,10 @@ use_frameworks!
 
 platform :ios, '10.0'
 
-target 'popup-bottom-navigation_Example' do
-  pod 'popup-bottom-navigation', :path => '../'
+target 'PopupBottomNavigation_Example' do
+  pod 'PopupBottomNavigation', :path => '../'
 
-  target 'popup-bottom-navigation_Tests' do
+  target 'PopupBottomNavigation_Tests' do
     inherit! :search_paths
 
     

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "popup-bottom-navigation_Example.app"
-               BlueprintName = "popup-bottom-navigation_Example"
-               ReferencedContainer = "container:popup-bottom-navigation.xcodeproj">
+               BuildableName = "PopupBottomNavigation_Example.app"
+               BlueprintName = "PopupBottomNavigation_Example"
+               ReferencedContainer = "container:PopupBottomNavigation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "popup-bottom-navigation_Tests.xctest"
-               BlueprintName = "popup-bottom-navigation_Tests"
-               ReferencedContainer = "container:popup-bottom-navigation.xcodeproj">
+               BuildableName = "PopupBottomNavigation_Tests.xctest"
+               BlueprintName = "PopupBottomNavigation_Tests"
+               ReferencedContainer = "container:PopupBottomNavigation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,9 +48,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "popup-bottom-navigation_Tests.xctest"
-               BlueprintName = "popup-bottom-navigation_Tests"
-               ReferencedContainer = "container:popup-bottom-navigation.xcodeproj">
+               BuildableName = "PopupBottomNavigation_Tests.xctest"
+               BlueprintName = "PopupBottomNavigation_Tests"
+               ReferencedContainer = "container:PopupBottomNavigation.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "popup-bottom-navigation_Example.app"
-            BlueprintName = "popup-bottom-navigation_Example"
-            ReferencedContainer = "container:popup-bottom-navigation.xcodeproj">
+            BuildableName = "PopupBottomNavigation_Example.app"
+            BlueprintName = "PopupBottomNavigation_Example"
+            ReferencedContainer = "container:PopupBottomNavigation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "popup-bottom-navigation_Example.app"
-            BlueprintName = "popup-bottom-navigation_Example"
-            ReferencedContainer = "container:popup-bottom-navigation.xcodeproj">
+            BuildableName = "PopupBottomNavigation_Example.app"
+            BlueprintName = "PopupBottomNavigation_Example"
+            ReferencedContainer = "container:PopupBottomNavigation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -101,9 +101,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "popup-bottom-navigation_Example.app"
-            BlueprintName = "popup-bottom-navigation_Example"
-            ReferencedContainer = "container:popup-bottom-navigation.xcodeproj">
+            BuildableName = "PopupBottomNavigation_Example.app"
+            BlueprintName = "PopupBottomNavigation_Example"
+            ReferencedContainer = "container:PopupBottomNavigation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

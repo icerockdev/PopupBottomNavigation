@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:popup-bottom-navigation.xcodeproj">
+      location = "self:PopupBottomNavigation.xcodeproj">
    </FileRef>
 </Workspace>

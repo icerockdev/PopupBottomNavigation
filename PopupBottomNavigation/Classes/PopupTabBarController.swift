@@ -1,6 +1,6 @@
 //
 //  PopupTabBarController.swift
-//  popup-bottom-navigation
+//  PopupBottomNavigation
 //
 //  Created by Aleksey Mikhailov on 30.05.2023.
 //

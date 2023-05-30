@@ -12,8 +12,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		619C2C34A717DD5D917B6958 /* Pods_popup_bottom_navigation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0C1659C42A1E75677CF0A9 /* Pods_popup_bottom_navigation_Example.framework */; };
-		C09CEF5183B4A666A041143B /* Pods_popup_bottom_navigation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F1E1E86ED0FF412151C682 /* Pods_popup_bottom_navigation_Tests.framework */; };
+		65E45B6A745C288881C9F5CC /* Pods_PopupBottomNavigation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF78D26CBF83723B788734B /* Pods_PopupBottomNavigation_Example.framework */; };
+		C6D0388864A65B816784A4FE /* Pods_PopupBottomNavigation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF00F11C9EF0CEDDBCA7DD8 /* Pods_PopupBottomNavigation_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,29 +22,29 @@
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = "popup-bottom-navigation";
+			remoteInfo = PopupBottomNavigation;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16BEF2BE92879A746B189CD6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3D56469800D92E7CB8056B4A /* popup-bottom-navigation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "popup-bottom-navigation.podspec"; path = "../popup-bottom-navigation.podspec"; sourceTree = "<group>"; };
-		52F1E1E86ED0FF412151C682 /* Pods_popup_bottom_navigation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_popup_bottom_navigation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD01AFB9204008FA782 /* popup-bottom-navigation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "popup-bottom-navigation_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CE3C99929F49FA8FF7B06E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		161AFE8CAE9ACC58177EA088 /* Pods-PopupBottomNavigation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupBottomNavigation_Example.release.xcconfig"; path = "Target Support Files/Pods-PopupBottomNavigation_Example/Pods-PopupBottomNavigation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1B1FE6FF269D6F7B0F86074F /* Pods-PopupBottomNavigation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupBottomNavigation_Tests.release.xcconfig"; path = "Target Support Files/Pods-PopupBottomNavigation_Tests/Pods-PopupBottomNavigation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3B4E83500DD5AF64FF0B9B2A /* Pods-PopupBottomNavigation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupBottomNavigation_Example.debug.xcconfig"; path = "Target Support Files/Pods-PopupBottomNavigation_Example/Pods-PopupBottomNavigation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5D614D613C72FF5ECED98BD6 /* Pods-PopupBottomNavigation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupBottomNavigation_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PopupBottomNavigation_Tests/Pods-PopupBottomNavigation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* PopupBottomNavigation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopupBottomNavigation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* popup-bottom-navigation_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "popup-bottom-navigation_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* PopupBottomNavigation_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopupBottomNavigation_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7531E9FD13283C834035F757 /* Pods-popup-bottom-navigation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-popup-bottom-navigation_Example.release.xcconfig"; path = "Target Support Files/Pods-popup-bottom-navigation_Example/Pods-popup-bottom-navigation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		78C5228443D9DECB917000D0 /* Pods-popup-bottom-navigation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-popup-bottom-navigation_Tests.release.xcconfig"; path = "Target Support Files/Pods-popup-bottom-navigation_Tests/Pods-popup-bottom-navigation_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		905D379AAF6E609529EEE467 /* Pods-popup-bottom-navigation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-popup-bottom-navigation_Tests.debug.xcconfig"; path = "Target Support Files/Pods-popup-bottom-navigation_Tests/Pods-popup-bottom-navigation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AE0C1659C42A1E75677CF0A9 /* Pods_popup_bottom_navigation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_popup_bottom_navigation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB9792ADE61AE4019AF49835 /* Pods-popup-bottom-navigation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-popup-bottom-navigation_Example.debug.xcconfig"; path = "Target Support Files/Pods-popup-bottom-navigation_Example/Pods-popup-bottom-navigation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F92EA26C56000E774C0013A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6BF00F11C9EF0CEDDBCA7DD8 /* Pods_PopupBottomNavigation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopupBottomNavigation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF78D26CBF83723B788734B /* Pods_PopupBottomNavigation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopupBottomNavigation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E99D0BACBD93521526B1671 /* PopupBottomNavigation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PopupBottomNavigation.podspec; path = ../PopupBottomNavigation.podspec; sourceTree = "<group>"; };
+		BE3A45EF3DEEF73E71B90AF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				619C2C34A717DD5D917B6958 /* Pods_popup_bottom_navigation_Example.framework in Frameworks */,
+				65E45B6A745C288881C9F5CC /* Pods_PopupBottomNavigation_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C09CEF5183B4A666A041143B /* Pods_popup_bottom_navigation_Tests.framework in Frameworks */,
+				C6D0388864A65B816784A4FE /* Pods_PopupBottomNavigation_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,24 +71,24 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for popup-bottom-navigation */,
+				607FACD21AFB9204008FA782 /* Example for PopupBottomNavigation */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				874A14CF7C78FCBE2A5AF5C9 /* Pods */,
-				82F54AF704CC7C482581073B /* Frameworks */,
+				9D53D1A4A5C74AB9E93FCB74 /* Pods */,
+				B2DC8F6D929AC02502E4EF9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* popup-bottom-navigation_Example.app */,
-				607FACE51AFB9204008FA782 /* popup-bottom-navigation_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* PopupBottomNavigation_Example.app */,
+				607FACE51AFB9204008FA782 /* PopupBottomNavigation_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for popup-bottom-navigation */ = {
+		607FACD21AFB9204008FA782 /* Example for PopupBottomNavigation */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -97,8 +97,8 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for popup-bottom-navigation";
-			path = "popup-bottom-navigation";
+			name = "Example for PopupBottomNavigation";
+			path = PopupBottomNavigation;
 			sourceTree = "<group>";
 		};
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
@@ -129,60 +129,60 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				3D56469800D92E7CB8056B4A /* popup-bottom-navigation.podspec */,
-				16BEF2BE92879A746B189CD6 /* README.md */,
-				F92EA26C56000E774C0013A5 /* LICENSE */,
+				8E99D0BACBD93521526B1671 /* PopupBottomNavigation.podspec */,
+				0CE3C99929F49FA8FF7B06E1 /* README.md */,
+				BE3A45EF3DEEF73E71B90AF5 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		82F54AF704CC7C482581073B /* Frameworks */ = {
+		9D53D1A4A5C74AB9E93FCB74 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AE0C1659C42A1E75677CF0A9 /* Pods_popup_bottom_navigation_Example.framework */,
-				52F1E1E86ED0FF412151C682 /* Pods_popup_bottom_navigation_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		874A14CF7C78FCBE2A5AF5C9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BB9792ADE61AE4019AF49835 /* Pods-popup-bottom-navigation_Example.debug.xcconfig */,
-				7531E9FD13283C834035F757 /* Pods-popup-bottom-navigation_Example.release.xcconfig */,
-				905D379AAF6E609529EEE467 /* Pods-popup-bottom-navigation_Tests.debug.xcconfig */,
-				78C5228443D9DECB917000D0 /* Pods-popup-bottom-navigation_Tests.release.xcconfig */,
+				3B4E83500DD5AF64FF0B9B2A /* Pods-PopupBottomNavigation_Example.debug.xcconfig */,
+				161AFE8CAE9ACC58177EA088 /* Pods-PopupBottomNavigation_Example.release.xcconfig */,
+				5D614D613C72FF5ECED98BD6 /* Pods-PopupBottomNavigation_Tests.debug.xcconfig */,
+				1B1FE6FF269D6F7B0F86074F /* Pods-PopupBottomNavigation_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B2DC8F6D929AC02502E4EF9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CF78D26CBF83723B788734B /* Pods_PopupBottomNavigation_Example.framework */,
+				6BF00F11C9EF0CEDDBCA7DD8 /* Pods_PopupBottomNavigation_Tests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* popup-bottom-navigation_Example */ = {
+		607FACCF1AFB9204008FA782 /* PopupBottomNavigation_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "popup-bottom-navigation_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "PopupBottomNavigation_Example" */;
 			buildPhases = (
-				C22DD379683FEB74378B55B9 /* [CP] Check Pods Manifest.lock */,
+				A784DFFFC1BA260D42983BBE /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				6AD55A14FB0A58E94E0E1142 /* [CP] Embed Pods Frameworks */,
+				D4E80F86111D1439535D68B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "popup-bottom-navigation_Example";
-			productName = "popup-bottom-navigation";
-			productReference = 607FACD01AFB9204008FA782 /* popup-bottom-navigation_Example.app */;
+			name = PopupBottomNavigation_Example;
+			productName = PopupBottomNavigation;
+			productReference = 607FACD01AFB9204008FA782 /* PopupBottomNavigation_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* popup-bottom-navigation_Tests */ = {
+		607FACE41AFB9204008FA782 /* PopupBottomNavigation_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "popup-bottom-navigation_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "PopupBottomNavigation_Tests" */;
 			buildPhases = (
-				976F9CC3D5DA1602EBC49F4F /* [CP] Check Pods Manifest.lock */,
+				8AAB69125F0EEE6A82EE80D6 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -192,9 +192,9 @@
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = "popup-bottom-navigation_Tests";
+			name = PopupBottomNavigation_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* popup-bottom-navigation_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* PopupBottomNavigation_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "popup-bottom-navigation" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PopupBottomNavigation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -232,8 +232,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* popup-bottom-navigation_Example */,
-				607FACE41AFB9204008FA782 /* popup-bottom-navigation_Tests */,
+				607FACCF1AFB9204008FA782 /* PopupBottomNavigation_Example */,
+				607FACE41AFB9204008FA782 /* PopupBottomNavigation_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,66 +258,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6AD55A14FB0A58E94E0E1142 /* [CP] Embed Pods Frameworks */ = {
+		8AAB69125F0EEE6A82EE80D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopupBottomNavigation_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A784DFFFC1BA260D42983BBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopupBottomNavigation_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4E80F86111D1439535D68B6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-popup-bottom-navigation_Example/Pods-popup-bottom-navigation_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/popup-bottom-navigation/popup_bottom_navigation.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-PopupBottomNavigation_Example/Pods-PopupBottomNavigation_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PopupBottomNavigation/PopupBottomNavigation.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/popup_bottom_navigation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupBottomNavigation.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-popup-bottom-navigation_Example/Pods-popup-bottom-navigation_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		976F9CC3D5DA1602EBC49F4F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-popup-bottom-navigation_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C22DD379683FEB74378B55B9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-popup-bottom-navigation_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopupBottomNavigation_Example/Pods-PopupBottomNavigation_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -345,7 +345,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* popup-bottom-navigation_Example */;
+			target = 607FACCF1AFB9204008FA782 /* PopupBottomNavigation_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -463,10 +463,10 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB9792ADE61AE4019AF49835 /* Pods-popup-bottom-navigation_Example.debug.xcconfig */;
+			baseConfigurationReference = 3B4E83500DD5AF64FF0B9B2A /* Pods-PopupBottomNavigation_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "popup-bottom-navigation/Info.plist";
+				INFOPLIST_FILE = PopupBottomNavigation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -479,10 +479,10 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7531E9FD13283C834035F757 /* Pods-popup-bottom-navigation_Example.release.xcconfig */;
+			baseConfigurationReference = 161AFE8CAE9ACC58177EA088 /* Pods-PopupBottomNavigation_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "popup-bottom-navigation/Info.plist";
+				INFOPLIST_FILE = PopupBottomNavigation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -495,7 +495,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 905D379AAF6E609529EEE467 /* Pods-popup-bottom-navigation_Tests.debug.xcconfig */;
+			baseConfigurationReference = 5D614D613C72FF5ECED98BD6 /* Pods-PopupBottomNavigation_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -512,13 +512,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/popup-bottom-navigation_Example.app/popup-bottom-navigation_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopupBottomNavigation_Example.app/PopupBottomNavigation_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78C5228443D9DECB917000D0 /* Pods-popup-bottom-navigation_Tests.release.xcconfig */;
+			baseConfigurationReference = 1B1FE6FF269D6F7B0F86074F /* Pods-PopupBottomNavigation_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -531,14 +531,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/popup-bottom-navigation_Example.app/popup-bottom-navigation_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopupBottomNavigation_Example.app/PopupBottomNavigation_Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "popup-bottom-navigation" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PopupBottomNavigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -547,7 +547,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "popup-bottom-navigation_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "PopupBottomNavigation_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -556,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "popup-bottom-navigation_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "PopupBottomNavigation_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,

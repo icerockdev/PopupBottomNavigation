@@ -1,13 +1,13 @@
 //
 //  AppDelegate.swift
-//  popup-bottom-navigation
+//  PopupBottomNavigation
 //
 //  Created by 5010169 on 05/30/2023.
 //  Copyright (c) 2023 5010169. All rights reserved.
 //
 
 import UIKit
-import popup_bottom_navigation
+import PopupBottomNavigation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

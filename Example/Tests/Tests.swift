@@ -1,5 +1,5 @@
 import XCTest
-import popup_bottom_navigation
+import PopupBottomNavigation
 
 class Tests: XCTestCase {
     

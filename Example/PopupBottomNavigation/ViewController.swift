@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  popup-bottom-navigation
+//  PopupBottomNavigation
 //
 //  Created by 5010169 on 05/30/2023.
 //  Copyright (c) 2023 5010169. All rights reserved.
