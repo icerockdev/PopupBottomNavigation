@@ -1,0 +1,16 @@
+PODS:
+  - popup-bottom-navigation (0.1.0)
+
+DEPENDENCIES:
+  - popup-bottom-navigation (from `../`)
+
+EXTERNAL SOURCES:
+  popup-bottom-navigation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  popup-bottom-navigation: d153c523318994a7416d7bc56e1512114c242f5d
+
+PODFILE CHECKSUM: 055fb2910bb25e3237d95f6bde56782732f8c55e
+
+COCOAPODS: 1.12.1

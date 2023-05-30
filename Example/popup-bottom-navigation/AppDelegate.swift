@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import popup_bottom_navigation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,58 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let window = UIWindow()
+        let tabBarController = PopupTabBarController()
+        
+        tabBarController.viewControllers = [
+            ViewController().navigation(
+                title: "First",
+                image: UIImage(systemName: "candybarphone")!,
+                tag: 0
+            ),
+            PopupTabController()
+                .nested(
+                    viewControllers: [
+                        ViewController().navigation(
+                            title: "Отзывы",
+                            image: UIImage(systemName: "checkmark.message")!,
+                            tag: 1
+                        ),
+                        ViewController().navigation(
+                            title: "Лента",
+                            image: UIImage(systemName: "text.bubble")!,
+                            tag: 2
+                        )
+                    ]
+                )
+                .navigation(
+                    title: "Nested",
+                    image: UIImage(systemName: "candybarphone")!,
+                    tag: 2
+                ),
+            ViewController().navigation(
+                title: "Third",
+                image: UIImage(systemName: "candybarphone")!,
+                tag: 3
+            ),
+            ViewController().navigation(
+                title: "Four",
+                image: UIImage(systemName: "candybarphone")!,
+                tag: 4
+            ),
+            ViewController().navigation(
+                title: "Five",
+                image: UIImage(systemName: "candybarphone")!,
+                tag: 5
+            )
+        ]
+        
+        window.rootViewController = tabBarController
+        window.makeKeyAndVisible()
+        
+        self.window = window
+        
         return true
     }
 
@@ -40,7 +93,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
 }
 
+extension UIViewController {
+    func navigation(title: String, image: UIImage, tag: Int) -> Self {
+        self.navigationItem.title = title
+        self.tabBarItem = UITabBarItem(
+            title: title,
+            image: image,
+            tag: tag
+        )
+        return self
+    }
+}
+
+extension PopupTabController {
+    func nested(viewControllers: [UIViewController]) -> Self {
+        self.nestedViewControllers = viewControllers
+        return self
+    }
+}
