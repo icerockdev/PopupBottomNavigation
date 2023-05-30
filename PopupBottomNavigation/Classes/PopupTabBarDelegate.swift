@@ -25,7 +25,7 @@ public class PopupTabBarDelegate: NSObject, UITabBarControllerDelegate, UITabBar
         return view
     }()
 
-    override init() {
+    public override init() {
         super.init()
 
         dismissBackground.onTap = { [weak self] in
@@ -103,12 +103,6 @@ public class PopupTabBarDelegate: NSObject, UITabBarControllerDelegate, UITabBar
         let selectedVCIndex = nestedVC.nestedViewControllers
             .firstIndex { $0.tabBarItem.tag == item.tag }
         nestedVC.selectedNestedViewController = selectedVCIndex
-        let selectedVC = nestedVC.nestedViewControllers[selectedVCIndex!]
-        nestedVC.tabBarItem = UITabBarItem(
-            title: selectedVC.tabBarItem.title,
-            image: selectedVC.tabBarItem.image,
-            tag: nestedVC.tabBarItem.tag
-        )
         
         let tabVC = nestedVC.tabBarController!
         tabVC.selectedViewController = nestedVC

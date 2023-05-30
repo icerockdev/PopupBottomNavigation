@@ -18,30 +18,44 @@ open class PopupTabController: UIViewController {
             let oldVC: UIViewController?
             let newVC: UIViewController?
             if let oldValue {
-                oldVC = nestedViewControllers[oldValue]
+                oldVC = self.nestedViewControllers[oldValue]
             } else {
                 oldVC = nil
             }
             
-            if let newValue = selectedNestedViewController {
-                newVC = nestedViewControllers[newValue]
+            if let newValue = self.selectedNestedViewController {
+                newVC = self.nestedViewControllers[newValue]
             } else {
                 newVC = nil
             }
             
             if let vc = oldVC {
-                vc.willMove(toParentViewController: nil)
+                vc.willMove(toParent: nil)
                 vc.view.removeFromSuperview()
-                vc.removeFromParentViewController()
-                vc.didMove(toParentViewController: nil)
+                vc.removeFromParent()
+                vc.didMove(toParent: nil)
             }
             
             if let vc = newVC {
-                vc.willMove(toParentViewController: self)
-                self.addChildViewController(vc)
+                vc.willMove(toParent: self)
+                self.addChild(vc)
                 self.view.addSubview(vc.view)
-                vc.didMove(toParentViewController: self)
+                vc.didMove(toParent: self)
             }
+            
+            self.didChangeSelectedNestedViewController()
         }
+    }
+    
+    open func didChangeSelectedNestedViewController() {
+        guard let idx = self.selectedNestedViewController else { return }
+        
+        let selectedVC = self.nestedViewControllers[idx]
+        
+        self.tabBarItem = UITabBarItem(
+            title: selectedVC.tabBarItem.title,
+            image: selectedVC.tabBarItem.image,
+            tag: self.tabBarItem.tag
+        )
     }
 }
