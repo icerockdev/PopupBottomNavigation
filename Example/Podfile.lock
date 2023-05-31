@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PopupBottomNavigation: e41d0507733a006ba59308f6253c16937c4b2b6f
+  PopupBottomNavigation: 8a375ed65baeeb960c62af382905d54a38b96281
 
 PODFILE CHECKSUM: 31c936d4066f9cef57cae331e61dc51b6f1a81db
 

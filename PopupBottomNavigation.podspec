@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PopupBottomNavigation'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PopupBottomNavigation.'
+  s.summary          = 'Popup menu with additional tabs for UITabBarController'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,21 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+You can create TabBar items that will show Popup menu with additional tabs.
                        DESC
 
-  s.homepage         = 'https://github.com/5010169/PopupBottomNavigation'
+  s.homepage         = 'https://github.com/icerockdev/PopupBottomNavigation'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '5010169' => 'Aleksey.Mikhailov@icerockdev.com' }
-  s.source           = { :git => 'https://github.com/5010169/PopupBottomNavigation.git', :tag => s.version.to_s }
+  s.license          = { :type => 'Apache 2.0', :file => 'LICENSE.md' }
+  s.author           = { 'Alex009' => 'Aleksey.Mikhailov@icerockdev.com' }
+  s.source           = { :git => 'https://github.com/icerockdev/PopupBottomNavigation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'PopupBottomNavigation/Classes/**/*'
+  
+  s.swift_versions = ['5.0']
   
   # s.resource_bundles = {
   #   'PopupBottomNavigation' => ['PopupBottomNavigation/Assets/*.png']
