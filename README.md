@@ -2,12 +2,12 @@
 
 # Popup Bottom Navigation for iOS
 
-![ios-demo](https://github.com/icerockdev/PopupBottomNavigation/assets/5010169/dcc4345b-f2f7-4d80-8e3e-04165c0fa9dc)
+![ios-demo](https://github.com/icerockdev/PopupBottomNavigation/assets/5010169/6d3fe7ac-bd82-41e1-9993-a36bbad17582)
 
 ## Installation
 ### CocoaPods
 ```ruby
-...
+pod 'PopupBottomNavigation'
 ```
 
 ## Usage
